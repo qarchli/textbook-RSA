@@ -29,7 +29,7 @@ public class RSA {
 
 		String decryptedMessage = "";
 
-		// we split the encrypted message into 3-digits blocks
+		// we split the encrypted message into blocks
 		for ( String block : encryptedMessage.split( " " ) ) {
 			BigInteger cipheredBlock = new BigInteger( block );
 			decryptedMessage += (char) ( cipheredBlock.modPow( d, n ) ).intValue();

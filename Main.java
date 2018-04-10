@@ -22,7 +22,7 @@ public class Main {
 		System.out.println( "Private key: ( d = " + d + ", n = " + m + ")" );
 		System.out.println( "/-------------------------------/" );
 
-		System.out.println( "Originl message: " + message );
+		System.out.println( "Original message: " + message );
 		System.out.println( "Encrypted message: " + encryptedMessage );
 		System.out.println( "Decrypted message: " + decryptedMessage );
 
